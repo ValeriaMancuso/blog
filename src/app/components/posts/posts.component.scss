@@ -1,0 +1,102 @@
+.example-card {
+  max-width: 400px;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+button {
+  margin: 5px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.btn {
+  border-radius: 6px;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: baseline;
+}
+
+.between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+mat-card-header {
+  height: 68px;
+}
+mat-card-subtitle {
+  margin-bottom: 7px;
+}
+.mat-card-header .mat-card-title {
+  font-size: 25px;
+}
+
+#author {
+  color: #F44336;
+  font-size: 1.1em;
+}
+
+.text-wrap {
+  display: -webkit-box;
+  max-width: 400px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.text-wrap-line {
+  display: -webkit-box;
+  max-width: 400px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 30px;
+  line-height: 1.3em;
+}
+
+mat-card-actions {
+  margin-bottom: -40px;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+
+button {
+
+  transition: all 0.3s ease;
+  transform: scale(1);
+
+  &:hover {
+    background-color: #F57B6D;
+    transform: scale(1.1) perspective(1px)
+  }
+}
